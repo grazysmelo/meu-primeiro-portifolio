@@ -1,0 +1,197 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+
+}
+
+.first{
+  display: inline-flex;
+  max-width: 100%;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.svgs{
+  margin-left: 150px;
+}
+
+.thumb{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.second{
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+
+.hability{
+  width: 450px; 
+  height: 700px; 
+  border-width: 2px; 
+  border: solid black;
+  margin-left: 15px;
+}
+
+.title{
+font-size: 30px; 
+text-align: center; 
+margin-bottom: 50px; 
+padding-top: 130px;
+}
+
+.paragraph > p{
+  font-size: 23px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.card{
+    width: 25%; 
+    height: 350px;
+    display: inline-flex;
+    margin-left: 3%;
+    left: 7%;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: linear-gradient(300deg, #00bfff, #8367e8, #78addb);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@media (max-width: 1215px){
+  .text{
+    margin-left: 15px;
+  }
+}
+
+@media(max-width: 1160px){
+  .thumb{
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1196px){
+  .text{
+    margin-top: 100px;}
+    .hability{
+      width: 400px;
+      height: 650px;
+    }
+    .paragraph{
+      margin: 0;
+    }
+    .paragraph2{
+      text-align: right;
+    }
+}
+
+@media(max-width: 1106px){
+  .svgs{
+    margin-left: 30px;
+  }
+  .card{
+    height: 310px;
+  }
+}
+
+@media (max-width: 1000px){
+  .card{
+    min-width: 40%;
+    height: 410px;
+  }
+  .hability{
+    margin-top: 50px;
+  }
+  .title{
+    padding-top: 100px;
+  }
+}
+
+@media(max-width: 875px){
+  .first{
+    display: block;
+    text-align: center;
+  }
+  .thumb{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .card{
+    height: 380px;
+  }
+}
+
+@media (max-width: 805px){
+  .second{
+    display: block;
+  }
+  .hability{
+    margin-left: 25%;
+    width: 50%;
+    height: 30%;
+    margin-right: 25%;
+  }
+  .title{
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .card{
+    height: 350px;
+  }
+}
+
+@media (max-width: 680px){
+  .card{
+    height: 310px;
+  }
+}
+
+@media (max-width: 600px){
+  .thumb{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 510px){
+  .card{
+    height: 270px;
+  }
+}
